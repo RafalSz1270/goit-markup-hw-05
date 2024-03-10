@@ -432,7 +432,48 @@ img {
 .one {
   color: #404bbf;
 }
-.is-open {
+.subscribe {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.form {
+  display: flex;
+  gap: 24px;
+}
+.email-input-field {
+  font-size: 12px;
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+.sub-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  color: #ffffff;
+  display: flex;
+  min-width: 165px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+}
+/* .is-open {
   visibility: hidden;
   opacity: 0, 5;
   pointer-events: all;
@@ -447,4 +488,4 @@ img {
 }
 .modal {
   display: block;
-}
+} */
