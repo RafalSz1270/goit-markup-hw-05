@@ -5,7 +5,7 @@
     <meta name="description" content="Effective Solutions for Your Business" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -452,7 +452,6 @@
         </div>
         <div class="form-subscribe">
           <p class="subscribe">Subscribe</p>
-          <!-- <div class="form-and-button"> -->
           <form action="e-mail" class="personal-contact">
             <label for="e-mail" class="contact-e-mail">
               <input
@@ -469,11 +468,10 @@
               </svg>
             </button>
           </form>
-          <!-- </div> -->
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="x-button" type="button">
           <svg class="close" width="8" height="8">
@@ -485,15 +483,13 @@
         </p>
         <form name="you-contact" autocomplete="off" novalidate>
           <div class="form">
-            <label for="user-name" class="label"
-              >Name
-              <div class="input-and-icon">
-                <input type="text" class="input" id="user-name" />
-                <svg class="form-icon" widht="13" height="13">
-                  <use href="./images/modal.svg#icon-person"></use>
-                </svg>
-              </div>
-            </label>
+            <label for="user-name" class="label">Name </label>
+            <div class="input-and-icon">
+              <input type="text" class="input" id="user-name" />
+              <svg class="form-icon" widht="13" height="13">
+                <use href="./images/modal.svg#icon-person"></use>
+              </svg>
+            </div>
           </div>
           <div class="form">
             <label for="phone" class="label"
@@ -507,26 +503,22 @@
             </label>
           </div>
           <div class="form">
-            <label for="email" class="label"
-              >Email
-              <div class="input-and-icon">
-                <input type="email" class="input" id="email" />
-                <svg class="form-icon" widht="13" height="13">
-                  <use href="./images/modal.svg#icon-email"></use>
-                </svg>
-              </div>
-            </label>
+            <label for="email" class="label">Email </label>
+            <div class="input-and-icon">
+              <input type="email" class="input" id="email" />
+              <svg class="form-icon" widht="13" height="13">
+                <use href="./images/modal.svg#icon-email"></use>
+              </svg>
+            </div>
           </div>
           <div class="comment-area">
-            <label for="user-comment" class="label"
-              >Comment
-              <textarea
-                id="user-comment"
-                name="user-comment"
-                placeholder="text input"
-                class="comment-section"
-              ></textarea>
-            </label>
+            <label for="user-comment" class="label">Comment </label>
+            <textarea
+              id="user-comment"
+              name="user-comment"
+              placeholder="text input"
+              class="comment-section"
+            ></textarea>
           </div>
           <div class="checkbox-with-label">
             <input
