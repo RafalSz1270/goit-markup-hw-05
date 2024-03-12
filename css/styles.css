@@ -447,6 +447,7 @@ img {
 }
 .personal-contact {
   display: flex;
+  gap: 24px;
 }
 .email-input-field {
   font-size: 12px;
@@ -521,7 +522,7 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
-  transition: bacground-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .x-button:hover {
@@ -563,7 +564,7 @@ img {
 .input-and-icon {
   position: relative;
 }
-.input {
+.input-style {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -573,7 +574,7 @@ img {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input:focus {
+.input-style:focus {
   border-color: #4d5ae5;
   fill: #4d5ae5;
 }
@@ -581,7 +582,7 @@ img {
   position: absolute;
   left: 16px;
   top: 50%;
-  transform: translate(-50%);
+  transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .comment-area {
@@ -598,6 +599,10 @@ img {
   height: 120px;
   padding: 8px 16px;
   resize: none;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .comment-section:focus {
