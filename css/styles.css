@@ -525,6 +525,9 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.close {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .x-button:hover {
   background-color: #404bbf;
   border: none;
@@ -534,9 +537,6 @@ img {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
-}
-.close {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .leave-your-contacts {
   font-weight: 500;
@@ -613,7 +613,7 @@ img {
 .checkbox-with-label {
   margin-bottom: 24px;
 }
-.privacy-policy {
+.check-text {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -633,7 +633,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.chec {
+.check {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -646,8 +646,13 @@ img {
   justify-content: center;
   fill: transparent;
 }
-.link-privacy-policy {
+.privacy-policy {
   color: #4d5ae5;
+}
+.modal-check:checked + .check-text span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 .send-button {
   display: block;
